@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap project</title>
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="body-color">
+ 
+  <!-- header -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png">  
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="#">Home<i class="fa-solid fa-angle-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#explore">Explore<i class="fa-solid fa-angle-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#creator" tabindex="-1" aria-disabled="true">Creator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#pages" tabindex="-1" aria-disabled="true">Pages<i
+                class="fa-solid fa-angle-down"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">Form</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2 text-white bg-dark" type="search" placeholder="Search keyword" aria-label="Search">
+          <button class="btn text-white transition"> Wallet</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- slider -->
+  <section class="slider h-100">
+    <div class="container">
+      <div class="row  justify-content-center align-items-center justify-content-between">
+        <div class="col-xl-6 col-md-6 col-xs-12 slider-content text-white">
+          <h2>Discover Digital Artworks & Collect Best <span> NFTs</span></h2>
+          <p class="text-muted pb-3">There is enough digital artworks available online to help you put together crypto currency website.</p>
+          <button class="btn text-white d-inline transition">Explore Now</button>
+          <h6 class="d-inline px-4"><i class="fa-solid fa-circle-play px-2 h4"></i>Watch Video</h6>
+        </div>
+        <div class="col-xl-6 col-md-6 col-xs-12 p-4 slider-img">
+          <div class="row justify-content-center">
+            <div class="s-img d-none d-sm-block "><img src="img/sliderimg.png" alt="" srcset=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- title -->
+  <section class="m-5 text-center text-white">
+    <div class="container">
+      <div class="row">
+        <h2>Set Your Wallet</h2>
+        <p class="text-muted">Here are a few reasons why you should choose Oction</p>
+      </div>
+    </div>
+  </section>
+  <!-- wallet -->
+  <section  id="explore" class="m-4 text-center pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 wallet row align-items-center justify-content-center">
+          <div class="col-xl-2 col-md-3 xol-sm-5 bg-dark p-4 rounded-3 m-2">
+            <img src="img/oc-wallet-1.png" alt="" srcset="">
+            <h5 class="text-white-50 pt-3">Meta Mask</h5>
+          </div>
+          <div class="col-xl-2 col-md-3 xol-sm-12 bg-dark p-4 rounded-3  m-2">
+            <img src="img/oc-wallet-2.png" alt="">
+            <h5 class="text-white-50 pt-3"> Binance</h5>
+          </div>
+          <div class="col-xl-2 col-md-3 xol-sm-12 bg-dark p-4 rounded-3  m-2">
+            <img src="img/oc-wallet-3.png" alt="">
+            <h5 class="text-white-50 pt-3">Formatic</h5>
+          </div>
+          <div class="col-xl-2 col-md-3 xol-sm-12 bg-dark p-4 rounded-3  m-2">
+            <img src="img/oc-wallet-4.png" alt="">
+            <h5 class="text-white-50 pt-3">Formatic</h5>
+          </div>
+          <div class="col-xl-2 col-md-3 xol-sm-12 bg-dark p-4 rounded-3 m-2">
+            <img src="img/oc-wallet-5.png" alt="">
+            <h5 class="text-white-50 pt-3">Formatic</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- live -->
+  <section class="live p-5" id="creator">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <h2 class="text-white"><i class="fa-solid fa-circle-notch px-3"></i>Live Bids</h2>
+        <div class="card col-xl-4 col-md-6 col-lg-6 col-xs-12 p-4 m-4" style="width: 23rem;">
+         <div class="live-box">
+           <img src="img/oc-bids-1.jpg" class="card-img-top" alt="...">
+         </div>
+          <div class="card-body">
+            <h6 class="card-title text-white-50">
+              <img src="img/profile1.jpg" width="30px" class="rounded-circle">
+              @johnson
+            </h6>
+            <h5 class="text-white">Easter Santa Clause</h5>
+            <h6 class="text-white-50">Current Bid</h6>
+            <span class="text-primary d-inline pe-3">46.46 ETH</span>
+            <span class="text-primary d-inline px-4">Activity</span>
+            <a href="#" class="btn btn-primary w-100 mt-3">Place Bid</a>
+          </div>
+        </div>
+        <div class="card col-xl-4 col-md-6 col-lg-6 col-xs-12 p-4 m-4" style="width: 23rem;">
+          <div class="live-box">
+            <img src="img/oc-bids-2.jpg" class="card-img-top w-100" alt="...">
+          </div>
+          <div class="card-body">
+            <h6 class="card-title text-white-50">
+              <img src="img/profile2.jpg" width="30px" class="rounded-circle">
+              @johnson
+            </h6>
+            <h5 class="text-white">Easter Santa Clause</h5>
+            <h6 class="text-white-50">Current Bid</h6>
+            <span class="text-primary d-inline pe-3">46.46 ETH</span>
+            <span class="text-primary d-inline px-4">Activity</span>
+            <a href="#" class="btn btn-primary w-100 mt-3">Place Bid</a>
+          </div>
+        </div>
+        <div class="card col-xl-4 col-md-6 col-lg-6 col-xs-12 p-4 m-4" style="width: 23rem;">
+         <div class="live-box">
+          <img src="img/oc-bids-3.jpg" class="card-img-top" alt="...">
+         </div>
+          <div class="card-body">
+            <h6 class="card-title text-white-50">
+              <img src="img/profile3.jpg" width="30px" class="rounded-circle">
+              @johnson
+            </h6>
+            <h5 class="text-white">Easter Santa Clause</h5>
+            <h6 class="text-white-50">Current Bid</h6>
+            <span class="text-primary d-inline pe-3">46.46 ETH</span>
+            <span class="text-primary d-inline px-4">Activity</span>
+            <a href="#" class="btn btn-primary w-100 mt-3">Place Bid</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- title -->
+  <section class="text-center pb-5">
+    <div class="container">
+      <div class="row">
+        <h2 class="text-white">Browse by Category</h2>
+        <p class="text-white-50">Here are a few reasons why you should choose Oction for sell your NFT</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- service -->
+  <section class="service p-5">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+          <div class="service-content">
+            <div class="service-box ">
+              <img src="img/oc-category-1.jpg" alt="">
+            </div>
+            <h5 class="text-center pt-4 pb-4">3D Artwork</h5>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12  br">
+          <div class="service-content">
+            <div class="service-box">
+              <img src="img/oc-category-2.jpg" alt="">
+            </div>
+            <h5 class="text-center pt-4 pb-4">Video & Music</h5>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12  br">
+          <div class="service-content">
+           <div class="service-box">
+            <img src="img/oc-category-3.jpg" alt="">
+           </div>
+            <h5 class="text-center pt-4 pb-4">Trading Elements</h5>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12  br">
+          <div class="service-content">
+           <div class="service-box">
+            <img src="img/oc-category-4.jpg" alt="">
+           </div>
+            <h5 class="text-center pt-4 pb-4">Photography</h5>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12  br">
+          <div class="service-content">
+            <div class="service-box">
+              <img src="img/oc-category-5.jpg" alt="">
+            </div>
+            <h5 class="text-center pt-4  pb-4">PSD Mockup</h5>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12  br">
+          <div class="service-content">
+           <div class="service-box">
+            <img src="img/oc-category-6.jpg" alt="">
+           </div>
+            <h5 class="text-center pt-4 pb-4">Historical Book</h5>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12 br">
+          <div class="service-content">
+            <div class="service-box">
+              <img src="img/oc-category-7.jpg" alt="">
+            </div>
+            <h5 class="text-center pt-4 pb-4">Game & Software</h5>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12 br">
+          <div class="service-content">
+            <div class="service-box">
+              <img src="img/oc-category-8.jpg" alt="">
+            </div>
+            <h5 class="text-center pt-4  pb-4">Photo & Image</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- top-seller -->
+  <section class="top-seller p-5" id="contact">
+    <div class="container">
+      <div class="row ">
+        <div class="col-xl-6 col-md-6 col-sm-12 row justify-content-between justify-content-center">
+          <h2>Top Creator</h2>
+          <div class="col-xl-6 col-md-12 col-sm-12">
+            <div class="row align-items-center justify-content-center p-3">
+              <div class="col-4">
+                <img src="img/profile1.jpg" alt="" srcset="">
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-white h6">Stive Machman<i class="fa-solid fa-circle-check h6 px-2"></i></a>
+                <p class="text-primary">@machman</p>
+                <span class="h6">820 Created</span>
+              </div>
+            </div>
+            <div class="row align-items-center justify-content-center p-3">
+              <div class="col-4">
+                <img src="img/profile2.jpg" alt="" srcset="">
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-white h6">Jobanico Mina<i class="fa-solid fa-circle-check h6 px-2"></i> </a>
+                <p class="text-primary ">@Jobanico</p>
+                <span class="h6">80 Created</span>
+              </div>
+            </div>
+            <div class="row align-items-center justify-content-center p-3">
+              <div class="col-4">
+                <img src="img/profile3.jpg" alt="" srcset="">
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-white h6"> Walter Russell <i class="fa-solid fa-circle-check h6 px-2"></i></a>
+                <p class="text-primary ">@russell</p>
+                <span class="h6">82 Created</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-md-12 col-sm-12 row ">
+            <div class="row align-items-center justify-content-center p-3">
+              <div class="col-4">
+                <img src="img/profile5.jpg" alt="" srcset="">
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-white h6">Stive Machman<i class="fa-solid fa-circle-check px-2 h6"></i></a>
+                <p class="text-primary">@machman</p>
+                <span class="h6">820 Created</span>
+              </div>
+            </div>
+            <div class="row align-items-center justify-content-center p-3">
+              <div class="col-4">
+                <img src="img/profile6.jpg" alt="" srcset="">
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-white h6">Jobanico Mina<i class="fa-solid fa-circle-check h6 px-2"></i></a>
+                <p class="text-primary ">@Jobanico</p>
+                <span class="h6">80 Created</span>
+              </div>
+            </div>
+            <div class="row align-items-center justify-content-center p-3">
+              <div class="col-4">
+                <img src="img/profile7.jpg" alt="" srcset="">
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-white h6"> Walter Russell<i class="fa-solid fa-circle-check px-2 h6"></i></a>
+                <p class="text-primary ">@russell</p>
+                <span class="h6">82 Created</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-6 col-md-6 col-sm-12 row justify-content-between justify-content-center">
+          <h2>Top Seller</h2>
+          <div class="col-xl-6 col-md-12 col-sm-12 row ">
+            <div class="row align-items-center justify-content-center p-3">
+              <div class="col-4">
+                <img src="img/profile8.jpg" alt="" srcset="">
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-white h6">Stive Machman<i class="fa-solid fa-circle-check px-2 h6"></i></a>
+                <p class="text-primary">@machman</p>
+                <span class="h6">820 Created</span>
+              </div>
+            </div>
+            <div class="row align-items-center justify-content-center p-3">
+              <div class="col-4">
+                <img src="img/profile1.jpg" alt="" srcset="">
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-white h6">Jobanico Mina<i class="fa-solid fa-circle-check px-2 h6"></i></a>
+                <p class="text-primary ">@Jobanico</p>
+                <span class="h6">80 Created</span>
+              </div>
+            </div>
+            <div class="row align-items-center justify-content-center p-3">
+              <div class="col-4">
+                <img src="img/profile5.jpg" alt="" srcset="">
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-white h6"> Walter Russell<i class="fa-solid fa-circle-check px-2 h6"></i></a>
+                <p class="text-primary ">@russell</p>
+                <span class="h6">82 Created</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-md-12 col-sm-12 row ">
+            <div class="row align-items-center justify-content-center p-3">
+              <div class="col-4">
+                <img src="img/profile8.jpg" alt="" srcset="">
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-white h6">Stive Machman<i class="fa-solid fa-circle-check px-2 h6"></i></a>
+                <p class="text-primary">@machman</p>
+                <span class="h6">820 Created</span>
+              </div>
+            </div>
+            <div class="row align-items-center justify-content-center p-3">
+              <div class="col-4">
+                <img src="img/profile6.jpg" alt="" srcset="">
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-white h6">Jobanico Mina<i class="fa-solid fa-circle-check px-2 h6"></i></a>
+                <p class="text-primary ">@Jobanico</p>
+                <span class="h6">80 Created</span>
+              </div>
+            </div>
+            <div class="row align-items-center justify-content-center p-3">
+              <div class="col-4">
+                <img src="img/profile3.jpg" alt="" srcset="">
+              </div>
+              <div class="col-8">
+                <a href="#" class="text-white h6"> Walter Russell<i class="fa-solid fa-circle-check px-2 h6"></i></a>
+                <p class="text-primary ">@russell</p>
+                <span class="h6">82 Created</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="text-center text-white pb-5">
+    <div class="container">
+      <div class="row">
+        <h2>Popular Collection</h2>
+        <p class="text-white-50">Browse most popular collections and Choose between auctions</p>
+      </div>
+    </div>
+  </section>
+  <!-- popular -->
+  <section class="popular">
+    <div class="container">
+      <div class="row justify-content-between justify-content-center align-items-center">
+        <div class="col-xl-3 col-md-6 col-xs-12 row ">
+          <div class="popular-i row justify-content-center m-1 p-3">
+            <div class="col-6">
+              <div class="col-12">
+                <img src="img/art26.jpg" class="w-100 p-2" alt="" srcset="">
+              </div>
+              <div class="col-12">
+                <img src="img/art10.jpg" class="w-100 p-2" alt="">
+              </div>
+            </div>
+            <div class="col-6 popular-img">
+              <img src="img/art20.jpg" class="h-100 w-100" alt="">
+            </div>
+            <h4 class=" text-center py-2">Creative Artwork</h4>
+            <button class="btn text-white pt-2 transition">475 items</button>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-xs-12 row ">
+          <div class="popular-i row justify-content-center m-1 p-3">
+            <div class="col-6">
+              <div class="col-12">
+                <img src="img/art5.jpg" class="w-100 p-2" alt="" srcset="">
+              </div>
+              <div class="col-12">
+                <img src="img/art8.jpg" class="w-100 p-2" alt="">
+              </div>
+            </div>
+            <div class="col-6 popular-img">
+              <img src="img/art34.jpg" class="h-100 w-100" alt="">
+            </div>
+            <h4 class=" text-center py-2">Creative Artwork</h4>
+            <button class="btn text-white pt-2 transition">475 items</button>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-xs-12 row ">
+          <div class="popular-i row justify-content-center m-1 p-3">
+            <div class="col-6">
+              <div class="col-12">
+                <img src="img/art32.jpg" class="w-100 p-2" alt="" srcset="">
+              </div>
+              <div class="col-12">
+                <img src="img/art31.jpg" class="w-100 p-2" alt="">
+              </div>
+            </div>
+            <div class="col-6 popular-img">
+              <img src="img/art33.jpg" class="h-100 w-100" alt="">
+            </div>
+            <h4 class=" text-center py-2">Creative Artwork</h4>
+            <button class="btn text-white pt-2 transition">475 items</button>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-xs-12  row ">
+          <div class="popular-i row justify-content-center m-1 p-3">
+            <div class="col-6">
+              <div class="col-12">
+                <img src="img/art37.jpg" class="w-100 p-2" alt="" srcset="">
+              </div>
+              <div class="col-12">
+                <img src="img/art38.jpg" class="w-100 p-2" alt="">
+              </div>
+            </div>
+            <div class="col-6 popular-img">
+              <img src="img/art39.jpg" class="h-100 w-100" alt="">
+            </div>
+            <h4 class=" text-center py-2">Creative Artwork</h4>
+            <button class="btn text-white pt-2 transition">475 items</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- explore -->
+  <section class="explore p-5">
+    <div class="container">
+      <div class="row justify-content-between">
+        <h2 class="d-inline text-white">Explore Artworks</h2>
+      
+
+      <!-- 1st row -->
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+          <div class="card m-3" style="width: 18rem;">
+            <div class="row justify-content-between">
+               <div class="ex-i">
+                <img src="img/art36.jpg" class="card-img-top p-4" alt="...">
+              </div>
+                <div class="card-body p-4">
+                  <img src="img/profile1.jpg" class="rounded-circle" alt="">
+                  <a href="#" class="text-white">@russell<i class="fa-solid fa-circle-check h6 p-2 transition"></i></a>
+                </div>
+              </div>
+            <div class="card-body ">
+              <h4 class="transition">Motion Blender</h4>
+              <a href="#" class="card-link transition">Current Bid</a>
+              <a href="#" class="card-link transition">Activity<i class="fa-solid fa-arrow-trend-up p-2 "></i></a>
+            </div>
+          </div>
+         </div>
+         <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+          <div class="card m-3" style="width: 18rem;">
+            <div class="row justify-content-between">
+                <div class="ex-i">
+                  <img src="img/art37.jpg" class="card-img-top p-4" alt="...">
+                </div>
+                <div class="card-body p-4">
+                  <img src="img/profile2.jpg" class="rounded-circle" alt="">
+                  <a href="#" class="text-white">@stephens<i class="fa-solid fa-circle-check h6 p-2 transition"></i></a>
+                </div>
+              </div>
+            <div class="card-body ">
+              <h4 class="transition">Robotic Illustration</h4>
+              <a href="#" class="card-link transition">Current Bid</a>
+              <a href="#" class="card-link transition">Activity<i class="fa-solid fa-arrow-trend-up p-2 "></i></a>
+            </div>
+          </div>
+         </div>
+         <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="card m-3" style="width: 18rem;">
+            <div class="row justify-content-between">
+               <div class="ex-i">
+                <img src="img/art38.jpg" class="card-img-top p-4" alt="...">
+               </div>
+                <div class="card-body p-4">
+                  <img src="img/profile3.jpg" class="rounded-circle" alt="">
+                  <a href="#" class="text-white">@johnson<i class="fa-solid fa-circle-check h6 p-2 transition"></i></a>
+                </div>
+              </div>
+            <div class="card-body ">
+              <h4 class="transition">Portrait Artwork</h4>
+              <a href="#" class="card-link transition">Current Bid</a>
+              <a href="#" class="card-link transition">Activity<i class="fa-solid fa-arrow-trend-up p-2 "></i></a>
+            </div>
+          </div>
+         </div> 
+         <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+          <div class="card m-3" style="width: 18rem;">
+            <div class="row justify-content-between">
+                <div class="ex-i">
+                  <img src="img/624415f0c23c9169046500.gif" class="card-img-top p-4" alt="...">
+                </div>
+                <div class="card-body p-4">
+                  <img src="img/profile4.jpg" class="rounded-circle" alt="">
+                  <a href="#" class="text-white">@jerrifo<i class="fa-solid fa-circle-check h6 p-2 transition"></i></a>
+                </div>
+              </div>
+            <div class="card-body ">
+              <h4 class="transition">Juice Drinking</h4>
+              <a href="#" class="card-link transition">Current Bid</a>
+              <a href="#" class="card-link transition">Activity<i class="fa-solid fa-arrow-trend-up p-2 "></i></a>
+            </div>
+          </div>
+         </div>
+         <!-- 2nd row -->
+         <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="card m-3" style="width: 18rem;">
+            <div class="row justify-content-between">
+                <div class="ex-i">
+                  <img src="img/6244170cdbc1b582421642.gif" class="card-img-top p-4" alt="...">
+                </div>
+                <div class="card-body p-4">
+                  <img src="img/profile5.jpg" class="rounded-circle" alt="">
+                  <a href="#" class="text-white">@russell<i class="fa-solid fa-circle-check h6 p-2 transition"></i></a>
+                </div>
+              </div>
+            <div class="card-body ">
+              <h4 class="transition">Motion Blender</h4>
+              <a href="#" class="card-link transition">Current Bid</a>
+              <a href="#" class="card-link transition">Activity<i class="fa-solid fa-arrow-trend-up p-2 "></i></a>
+            </div>
+          </div>
+         </div>
+         <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="card m-3" style="width: 18rem;">
+            <div class="row justify-content-between">
+                <div class="ex-i">
+                  <img src="img/art5.jpg" class="card-img-top p-4" alt="...">
+                </div>
+                <div class="card-body p-4">
+                  <img src="img/profile6.jpg" class="rounded-circle" alt="">
+                  <a href="#" class="text-white">@russell<i class="fa-solid fa-circle-check h6 p-2 transition"></i></a>
+                </div>
+              </div>
+            <div class="card-body ">
+              <h4 class="transition">Motion Blender</h4>
+              <a href="#" class="card-link transition">Current Bid</a>
+              <a href="#" class="card-link transition">Activity<i class="fa-solid fa-arrow-trend-up p-2 "></i></a>
+            </div>
+          </div>
+         </div>
+         <div class=" col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="card m-3" style="width: 18rem;">
+            <div class="row justify-content-between">
+                <div class="ex-i">
+                  <img src="img/art8.jpg" class="card-img-top p-4" alt="...">
+                </div>
+                <div class="card-body p-4">
+                  <img src="img/profile8.jpg" class="rounded-circle" alt="">
+                  <a href="#" class="text-white">@russell<i class="fa-solid fa-circle-check h6 p-2 transition"></i></a>
+                </div>
+              </div>
+            <div class="card-body ">
+              <h4 class="transition">Motion Blender</h4>
+              <a href="#" class="card-link transition">Current Bid</a>
+              <a href="#" class="card-link transition">Activity<i class="fa-solid fa-arrow-trend-up p-2 "></i></a>
+            </div>
+          </div>
+         </div> 
+         <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <div class="card m-3" style="width: 18rem;">
+            <div class="row justify-content-between">
+                <div class="ex-i">
+                  <img src="img/art10.jpg" class="card-img-top p-4" alt="...">
+                </div>
+                <div class="card-body p-4">
+                  <img src="img/profile6.jpg" class="rounded-circle" alt="">
+                  <a href="#" class="text-white">@russell<i class="fa-solid fa-circle-check h6 p-2 transition"></i></a>
+                </div>
+              </div>
+            <div class="card-body ">
+              <h4 class="transition">Motion Blender</h4>
+              <a href="#" class="card-link transition">Current Bid</a>
+              <a href="#" class="card-link transition">Activity<i class="fa-solid fa-arrow-trend-up p-2 "></i></a>
+            </div>
+          </div>
+         </div>
+
+      </div>
+    </div>
+  </section>
+  
+<!-- NFTs -->
+  <section class="nft p-5 text-white text-center" id="pages">
+    <div class="container">
+      <div class="row justify-content-between align-items-center justify-content-center">
+        <h4>Create and sell your NFTs</h4>
+        <p class="text-muted">Here are a few reasons why you should choose Oction for sell your NFT</p>
+
+        <div class="col-xl-4 col-md-6 col-xs-12 ">
+          <div class="card p-2 m-2" style="width: 20rem;">
+            <div class="step text-muted text-end">
+              <h2 class="d-inline h1 transition">01</h2>
+              step
+            </div>
+            <img src="img/connect-icon.png " class="card-img-top pb-3 ps-2 transition" alt="...">
+           
+            <div class="card-body">
+              <h4 class="transition">Connect your wallet</h4>
+              <p class="card-text text-white-50 text-muted">NFTs are the latest and greatest application of blockchain technology, and marketplace has become theplatform for NFT.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-xs-12">
+          <div class="card p-2 m-2" style="width: 20rem;">
+            <div class="step text-muted transition text-end">
+              <h2 class="d-inline h1">02</h2>
+              step
+            </div>
+            <img src="img/create-collection.png" class="card-img-top pb-3 ps-2 transition" alt="...">
+           
+            <div class="card-body">
+              <h4 class="transition">Connect your wallet</h4>
+              <p class="card-text text-white-50 text-muted">NFTs are the latest and greatest application of blockchain technology, and marketplace has become theplatform for NFT.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-xs-12">
+          <div class="card p-2 m-2" style="width: 20rem;">
+            <div class="step text-muted text-end">
+              <h2 class="d-inline h1 transition">03</h2>
+              step
+            </div>
+            <img src="img/list-icon.png" class="card-img-top pb-3 ps-2 transition" alt="...">
+           
+            <div class="card-body">
+              <h4 class="transition">Connect your wallet</h4>
+              <p class="card-text text-white-50 text-muted">NFTs are the latest and greatest application of blockchain technology, and marketplace has become theplatform for NFT.</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="text-center text-lg-start text-white p-5">
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+  </section>
+  <section >
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            <img src="img/oction-logo-bw.png" alt="" srcset="">
+          </h6>
+          <p>
+            We provide one-stop solutions for all IT items; your bliss is just a click away. Star Tech trusts in quality client
+          </p>
+          <div class="social text-center">
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+           
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Marketplace
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Proper Guidelines</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Buy Products</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Compare Us</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Career</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Build Ecommerce</a>
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Explore Artworks
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">3D Artworks</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Photography</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Flat Illustration</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Painting</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Intro Videos</a>
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Insight Community
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Global Partners</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Forum</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Virtual World</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Community</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Brand Assets</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Copyright -->
+    <section class="copyright p-3">
+      <div class="container">
+        <div class="row justify-content-center justify-content-between align-items-center">
+          <div class="col-xl-4 col-md-6 col-xs-12">
+            <p>© Copyrighted & Designed by BDevs</p>
+          </div>
+    <div class="col-xl-4 col-md-6 col-xs-12">
+      <h6><i class="fa-solid fa-headphones-simple p-3 text-primary"></i>Have a question? Call us 24/7</h6>
+      <h5 class="ps-5">(987) 547587587</h5>
+    </div>
+    <div class="col-xl-4 col-md-6 col-xs-12">
+      <input type="text" placeholder="Enter email">
+        <button class="transition">Subscribe</button>
+    </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+  
+  <!-- <script src="js/bootstrap.min.js"></script> -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="js/popper.min.js"></script> -->
+</body>
+
+</html>

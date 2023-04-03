@@ -1,0 +1,259 @@
+:root {
+   --blue: #2785ff;
+   --purple: #6610f2;
+   --black: #2a2f36;
+   --gray: #86909d;
+   --white: #ffffff;
+   --black: #000000;
+   --clr-common-body-text: #86909d;
+   --common-border: #2a2f36;
+   --placeholder: #b4b4b4;
+   --clr-bg-black: #1c2434;
+   --clr-bg-gray: #181f2d;
+   --clr-bg-footer: #181f2d;
+}
+.body-color{
+    background-color:var(--clr-bg-gray);
+}
+a {
+    text-decoration: none;
+}
+.transition{
+    transition: all 0.5s;
+}
+.navbar-toggler{
+    background-color: var(--gray);
+}
+form button{
+    background: linear-gradient(to right, #2b81ff, #7237ff, #2b81ff);
+    color:var(--white) ;
+}
+form button:hover{
+    background:linear-gradient(to right, #7237ff, #2b81ff,  #7237ff);
+}
+/* slider */
+.slider .slider-content button{
+  padding: 10px 25px;
+   background: linear-gradient(to right, #2b81ff, #7237ff, #2b81ff);
+}
+.slider .slider-content button:hover{
+    background:linear-gradient(to right, #7237ff, #2b81ff,  #7237ff);
+}
+.slider .slider-content h2 {
+    font-size: 65px;
+    line-height: 1.2;
+}
+.slider .slider-content p{
+    color: var(--clr-bg-black);
+    font-size: 20px;
+}
+.slider .slider-content span{
+    color: var(--blue);
+}
+.slider .s-img{
+    overflow: hidden;
+}
+.br img{
+    border-radius: 15px;
+}
+.slider{
+    height: 100vh;
+}
+/* wallet */
+.blink{
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border: 6px solid var(--blue);
+    border-radius: 50%;
+    animation: live-pulse 1s infinite;
+}
+/* live */
+.live .card .live-box{
+    overflow: hidden;
+} 
+.live .card img{
+    transition: all 1s;
+}
+.live .card img:hover{
+    transform: scale(1.1);
+}
+.live .card-body a{
+    transition: all 0.5s    ;
+    background: linear-gradient(to right, #2b81ff, #7237ff, #2b81ff);
+}
+.live .card-body a:hover{
+    background:linear-gradient(to right, #7237ff, #2b81ff,  #7237ff);
+}
+/* service */
+.service-content .service-box{
+    overflow: hidden;   
+    border-radius: 15px;
+}
+.service-content img{
+    transition: all 0.5s;
+}
+.service-content img:hover{
+    transform: scale(1.1);
+}
+.service-content img:hover {
+    border-radius: 15px;
+}
+.service-content  h5{
+    color: var(--white);
+    transition: all 0.5s;
+}
+.service-content  h5:hover{
+    color: var(--blue);
+}
+
+/* top-seller */
+.top-seller img{
+    width: 80%;
+    border-radius: 50%;
+}
+.top-seller h2{
+    font-size: 40px;
+    color: var(--white);
+}
+.top-seller a {
+    color: var(--white);
+}
+.top-seller a:hover i{
+    color: var(--blue);
+}
+/* popular */
+.popular img{
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+.popular .col-6, .popular .col-12{
+    padding: 0;
+}
+.popular .popular-img{
+    border-radius: 5px;
+    object-fit: fit;
+    overflow: hidden;
+}
+.popular .popular-i{
+    background-color: #1c2434;
+    border-radius: 20px;
+}
+.popular-i button{
+    background: linear-gradient(to right, #2b81ff, #7237ff, #2b81ff);
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.popular-i button:hover{
+    background:linear-gradient(to right, #7237ff, #2b81ff,  #7237ff);
+}
+.popular-i h4{
+    color: var(--white);
+    transition: all 0.5s;
+}
+.popular-i h4:hover{
+    color: var(--blue);
+}
+/* explore */
+.explore .card{
+    border-radius: 15px;
+}
+.explore .card img{
+    border-radius: 30px;
+}
+.explore-content .ex-i{
+    overflow: hidden;
+}
+.explore .ex-i img{
+    transition: all 0.5s;
+}
+.explore .ex-i img:hover{
+    transform: scale(0.9);
+}
+.explore .card .card-body img{
+    width: 20%;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.explore .card .card-body img:hover{
+    transform: scale(1.1);
+}
+.explore .card .card-body h4{
+    color: var(--white);
+}
+.explore .card .card-body h4:hover{
+    color: var(--blue);
+}
+.explore .card .card-body a{
+    color: var(--blue);
+}
+.explore .card .card-body a:hover{
+    color: var(--purple);
+}
+.card-body a:hover i{
+    color: var(--blue);
+}
+
+/* form */
+
+
+/* nft */
+.nft .card img{
+    width: 45%;
+}
+.nft .card img:hover{
+    transform: scale(1.1);
+}
+.card-body h4{
+    color: var(--white);
+}
+.card-body h4:hover{
+    color: var(--purple);
+}
+.nft .step{
+    color: var(--clr-common-body-text);
+}
+.nft .step h2:hover{
+    color: var(--white);
+}
+
+/* footer */
+footer{
+    background-color: var(--black);
+}
+footer .social a{
+    font-size: 16px;
+    padding: 8px;
+    background-color: var(--black);
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    color: #000000;
+    transition: all 1s;
+}
+footer .social a:hover{
+     background-color: var(--blue);
+     color: var(--white);
+}
+/* copyright */
+.copyright{
+    background-color: var(--clr-bg-gray
+    );
+}
+.copyright input{
+    border: 0.5px solid var(--black);
+     padding: 10px 20px;
+     border-radius: 5px;
+     background-color: transparent;
+}
+.copyright button{
+    padding: 12px 30px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.5s;
+    background: linear-gradient(to right, #2b81ff, #7237ff, #2b81ff);
+}
+.copyright button:hover{
+    background:linear-gradient(to right, #7237ff, #2b81ff,  #7237ff);
+}
